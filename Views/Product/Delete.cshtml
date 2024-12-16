@@ -1,0 +1,23 @@
+﻿@model ProductInformation_CRUD_Operations.Models.Product
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form method="post">
+    <h4>Delete</h4>
+    <div>
+        <label>Id</label>
+        <input type="text" asp-for="Id" id="txtid" />
+    </div>
+    <div>
+        <label>Name</label>
+        <input type="text" asp-for="Name" id="txtid" />
+    </div>
+    <div>
+        <label>CategoryId</label>
+        <input type="text" asp-for="CategoryId" id="txtid" />
+    </div>
+    
+    <button type="submit" class="btn btn-primary">submit</button>
+</form>
